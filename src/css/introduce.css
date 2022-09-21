@@ -1,0 +1,23 @@
+.introduce{
+    padding-bottom: 3rem;
+}
+.introduce-overlay{
+    width: 100%;
+    background-color: beige;
+}
+.card{
+    margin: 1rem;
+    border: 0;
+    border-radius: 10px !important;
+}
+.card-img{
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.introduce-head-text{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+}
+.introduce-head-text h2{
+    padding-bottom: 1rem;
+}

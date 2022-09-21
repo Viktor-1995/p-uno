@@ -1,0 +1,23 @@
+.aboutus{
+    position: relative;
+    width:100%;
+    min-height: 700px;
+    background-image:url("../img/aboutUsBack.jpg");
+    background-size: cover;
+}
+.aboutus-wrap{
+    display: flex;
+    min-height: 700px;
+    align-items: center;
+}
+.aboutUs-head-text{
+    margin: 2rem;
+    color: whitesmoke;
+    
+}
+.container{
+    align-items: center;
+}
+.container .row{
+    margin-top: 2rem;
+}

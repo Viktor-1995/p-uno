@@ -1,0 +1,36 @@
+.main{
+    position: relative;
+    width:100%;
+    min-height: 600px;
+    background-image:url("../img/background1Lambo.jpg");
+    background-size: cover;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+}
+.header{
+    width: 100%;
+    background-color: beige;
+    border-bottom: 2rem solid rgb(106, 49, 49);
+}
+.nav-item a{
+    color:rgb(255, 145, 0);
+}
+.nav-item a:hover{
+    color:rgb(255, 80, 0);
+    scale: 1.05;
+    box-shadow: 0 5px 0 rgb(255, 145, 0); ;
+    transition: 0.25s;
+}
+
+.navcontacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

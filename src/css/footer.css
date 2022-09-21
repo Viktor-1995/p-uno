@@ -1,0 +1,14 @@
+.footer{
+    width: 100%;
+    background-color: beige;   
+    padding: 1rem;
+}
+.footer-social svg{
+    margin:  0.5rem;
+}
+.footer-social svg{
+    color:rgb(255, 80, 0);;
+}
+.footer-social svg:hover{
+    scale: 1.1;
+}
