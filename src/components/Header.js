@@ -1,19 +1,22 @@
 import { Container } from "react-bootstrap";
 import { Nav, Navbar } from "react-bootstrap";
 import "../css/main.css";
+import { Link, NavLink } from "react-router-dom";
 
 function Header() {
     return (
         <div className="header ">
             <Container className="d-flex align-items-center justify-content-between">
                 <div>
-                    <Navbar.Brand href="/home">
-                        <img
-                            src={require("../img/Logo.jpg")}
-                            height="55px"
-                            className="d-inline-block align-top"
-                            alt="StekLogo"
-                        />
+                    <Navbar.Brand>
+                        <NavLink to="/">
+                            <img
+                                src={require("../img/Logo.jpg")}
+                                height="55px"
+                                className="d-inline-block align-top"
+                                alt="StekLogo"
+                            />
+                        </NavLink>
                     </Navbar.Brand>
                 </div>
 
@@ -22,19 +25,33 @@ function Header() {
                     activeKey="/home"
                 >
                     <Nav.Item>
-                        <Nav.Link eventKey="link-1">About Us</Nav.Link>
+                        <NavLink className="nav-link" to="/">
+                            Home
+                        </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="link-2">Products</Nav.Link>
+                        <NavLink className="nav-link" to="/aboutUs">
+                            About Us
+                        </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="">Prices</Nav.Link>
+                        <NavLink className="nav-link" eventKey="">
+                            Prices
+                        </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="">Services</Nav.Link>
+                        <NavLink
+                            className="nav-link"
+                            eventKey=""
+                            to="/Services"
+                        >
+                            Services
+                        </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="">FAQ</Nav.Link>
+                        <NavLink className="nav-link" to="/FAQ">
+                            FAQ
+                        </NavLink>
                     </Nav.Item>
                 </Nav>
                 <div className="navcontacts text-end">

@@ -1,19 +1,22 @@
 import { Container } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 import "../css/footer.css";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
     return (
         <div className="footer">
             <Container className="d-flex justify-content-between">
                 <div>
-                    <Navbar.Brand href="/home">
-                        <img
-                            src={require("../img/Logo.jpg")}
-                            height="55px"
-                            className="d-inline-block align-top"
-                            alt="StekLogo"
-                        />
+                    <Navbar.Brand>
+                        <NavLink to="/">
+                            <img
+                                src={require("../img/Logo.jpg")}
+                                height="55px"
+                                className="d-inline-block align-top"
+                                alt="StekLogo"
+                            />
+                        </NavLink>
                     </Navbar.Brand>
                 </div>
                 <div className="footer-text">

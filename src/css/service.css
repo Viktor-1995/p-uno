@@ -1,0 +1,16 @@
+.card {
+    background-color: beige;
+    padding: 2rem;
+    border: none;
+    align-items: center;
+}
+.card img:hover{
+    cursor: pointer;
+    scale: 1.15;
+    transition: 0.5s;
+   
+}
+.card img{
+    margin-bottom: 2rem;
+   border-radius: 0.5rem;
+}
