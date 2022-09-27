@@ -1,9 +1,9 @@
-
 .main-wrap{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   background-color: beige;
+  font-family: 'Raleway', sans-serif;
 }
 .content{
   flex: 1;

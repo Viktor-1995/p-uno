@@ -1,20 +1,13 @@
-import { Container } from "react-bootstrap";
-import { Card, CardGroup } from "react-bootstrap";
-import ServiceCard from "./ServiceCard";
+import "../css/service.css";
+import ServiceMain from "./ServiceMain";
+import ServiceSecondary from "./ServiceSecondary";
 
 function Services() {
     return (
-        <Container>
-            <CardGroup>
-                <ServiceCard />
-                <ServiceCard />
-                <ServiceCard />
-            </CardGroup>
-        </Container>
-
-        // <Container>
-
-        // </Container>
+        <div>
+            <ServiceMain />
+            <ServiceSecondary />
+        </div>
     );
 }
 

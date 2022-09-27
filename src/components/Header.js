@@ -55,8 +55,8 @@ function Header() {
                     </Nav.Item>
                 </Nav>
                 <div className="navcontacts text-end">
-                    <span>mail.com</span>
-                    <span>465686356465</span>
+                    <span>cleancar@mail.com</span>
+                    <span>+3800000000</span>
                     <span>city Kyiv</span>
                 </div>
             </Container>

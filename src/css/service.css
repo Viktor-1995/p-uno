@@ -1,16 +1,50 @@
-.card {
+.service-secondary-overlay{
+    text-align: center;
+}
+.service-main-overlay{
+    min-height: 500px;
+}
+.service-card {
     background-color: beige;
     padding: 2rem;
     border: none;
     align-items: center;
 }
-.card img:hover{
+.service-card img:hover{
     cursor: pointer;
     scale: 1.15;
     transition: 0.5s;
    
 }
-.card img{
-    margin-bottom: 2rem;
+.service-card img{
+    margin: 2rem 0;
    border-radius: 0.5rem;
+   box-shadow: 0 0 2rem 0.5rem rgb(25, 25, 25); 
+}
+h2 {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0;
+}
+.badge{
+    min-width: 150px;
+    margin:2rem;
+    padding: 1rem;
+}
+.service-secondary-overlay{
+    padding: 2rem 0;
+    background-color: aliceblue;
+}
+.service-secondary-badges{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-secondary-contact-social svg{
+    margin: 1rem;
+    color: black;
+
+}
+.service-secondary-contact-social svg:hover{
+    scale: 1.1;
 }
