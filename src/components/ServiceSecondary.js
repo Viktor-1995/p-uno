@@ -86,6 +86,7 @@ function ServiceSecondary() {
                                     type="phone"
                                     placeholder="Enter phone number"
                                     name="phone"
+                                    minLength="10"
                                 />
                                 <Form.Text className="text-muted">
                                     We'll never share your number with anyone

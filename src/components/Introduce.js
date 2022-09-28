@@ -11,7 +11,7 @@ function Introduce() {
                     <span>Includes</span>
                 </div>
                 <CardGroup>
-                    <Card className="bg-dark text-white d-wash">
+                    <Card className="bg-dark text-white ">
                         <Card.Img
                             src={require("../img/index1.jpg")}
                             alt="Card image"
@@ -25,7 +25,7 @@ function Introduce() {
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white d-wash">
+                    <Card className="bg-dark text-white ">
                         <Card.Img
                             src={require("../img/index2.jpg")}
                             alt="Card image"
@@ -39,7 +39,7 @@ function Introduce() {
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white d-wash">
+                    <Card className="bg-dark text-white ">
                         <Card.Img
                             src={require("../img/index3.jpg")}
                             alt="Card image"
@@ -60,7 +60,7 @@ function Introduce() {
                     <span>Includes</span>
                 </div>
                 <CardGroup>
-                    <Card className="bg-dark text-white d-wash">
+                    <Card className="bg-dark text-white ">
                         <Card.Img
                             src={require("../img/interiorIndex8.jpg")}
                             alt="Card image"
@@ -74,7 +74,7 @@ function Introduce() {
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white d-wash">
+                    <Card className="bg-dark text-white ">
                         <Card.Img
                             src={require("../img/interiorIndex4.jpg")}
                             alt="Card image"
@@ -88,7 +88,7 @@ function Introduce() {
                             </Card.Text>
                         </Card.ImgOverlay>
                     </Card>
-                    <Card className="bg-dark text-white d-wash">
+                    <Card className="bg-dark text-white ">
                         <Card.Img
                             src={require("../img/interiorIndex5.jpeg")}
                             alt="Card image"

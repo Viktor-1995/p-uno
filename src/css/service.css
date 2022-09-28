@@ -35,7 +35,11 @@ h2 {
     padding: 2rem 0;
     background-color: aliceblue;
 }
+.service-secondary-contact{
+    flex-wrap: wrap;
+}
 .service-secondary-badges{
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -47,4 +51,11 @@ h2 {
 }
 .service-secondary-contact-social svg:hover{
     scale: 1.1;
+}
+@media screen and (max-width:1256px) {
+    
+    .service-card{
+        margin: 0 !important;
+        padding: 1rem;
+    }
 }

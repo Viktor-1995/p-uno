@@ -21,3 +21,13 @@
 .introduce-head-text h2{
     padding-bottom: 1rem;
 }
+
+@media (max-width:1000px) {
+    .card-group{
+        flex-direction: column !important;
+
+    }
+    .card{
+        margin: 3rem  5rem !important;
+    }
+}

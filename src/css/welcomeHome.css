@@ -11,9 +11,18 @@
     color: rgb(255, 255, 255);
     font-size: large;
 }
+.home-img{
+    
+}
 .home-img img{
     border-radius: 1rem ;
+    max-width: 450px;
 }
 h2{
     padding-bottom: 3rem;
+}
+@media screen and (max-width:996px) {
+    .welcomehome{
+        flex-direction: column;
+    }
 }

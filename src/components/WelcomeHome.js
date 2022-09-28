@@ -25,7 +25,6 @@ function WelcomeHome() {
                         <img
                             src="https://www.diamond-detailing.com.ua/wp-content/uploads/2019/06/11IMG_6313.jpg"
                             alt=""
-                            width="450px"
                         />
                     </div>
                 </div>
