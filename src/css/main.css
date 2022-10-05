@@ -2,7 +2,7 @@
     position: relative;
     width:100%;
     min-height: 600px;
-    background-image:url("../img/background1Lambo.jpg");
+    background-image:url("../img/background2Audi.png");
     background-size: cover;
 }
 .overlay{
@@ -47,6 +47,7 @@
     font-weight:bold;
     text-decoration: none;
 }
+
 @media screen and (max-width:778px) {
 
     .menu-dropdown{

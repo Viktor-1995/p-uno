@@ -1,0 +1,28 @@
+.aboutUs-container{
+
+    
+}
+.aboutUs-overlay-first, .aboutUs-overlay-second{
+    width:100%;
+    min-height: 500px; 
+    
+}
+.aboutUs-overlay-first{
+    background-color: rgb(191, 191, 191);
+}
+.aboutUs-overlay-second{
+    background-color: rgb(69, 69, 69);
+}
+.aboutUs, .aboutUs-second{
+    padding: 4rem 4rem;
+    line-height: 2rem;
+}
+.aboutUs h2{
+    padding-bottom: 3rem;
+}
+.aboutUs-second h2{
+    padding-bottom: 1rem;
+}
+.aboutUs-second{
+    color: rgb(191, 191, 191);;
+}

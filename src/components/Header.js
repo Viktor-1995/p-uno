@@ -88,7 +88,7 @@ function Header() {
                         </NavLink>
                     </Nav.Item>
                     <Nav.Item>
-                        <NavLink className="nav-link" eventKey="">
+                        <NavLink className="nav-link" to="/Prices">
                             Prices
                         </NavLink>
                     </Nav.Item>

@@ -9,12 +9,20 @@ function Footer() {
             <Container className="d-flex justify-content-between">
                 <div>
                     <Navbar.Brand>
-                        <NavLink to="/">
+                        <NavLink
+                            to="/"
+                            onClick={() => {
+                                window.scroll({
+                                    top: 0,
+                                    behavior: "smooth",
+                                });
+                            }}
+                        >
                             <img
                                 src={require("../img/Logo.jpg")}
                                 height="55px"
                                 className="d-inline-block align-top"
-                                alt="StekLogo"
+                                alt="Logo"
                             />
                         </NavLink>
                     </Navbar.Brand>
