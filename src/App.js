@@ -3,7 +3,7 @@ import Home from "./components/Home";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import AboutUsBig from "./components/AboutUsBig";
 import FAQ from "./components/FAQ";
 import Services from "./components/Services";
@@ -12,7 +12,7 @@ import Prices from "./components/Prices";
 function App() {
     return (
         <>
-            <BrowserRouter>
+            <HashRouter>
                 <div className="main-wrap">
                     <div className="content">
                         <Header />
@@ -26,7 +26,7 @@ function App() {
                     </div>
                     <Footer />
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         </>
     );
 }
